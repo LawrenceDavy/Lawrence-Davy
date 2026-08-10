@@ -1,5 +1,3 @@
-# Lawrence-Davy
-
 # Lawrence Davy
 
 Operations professional with 11+ years leading high-volume teams and processes.  
