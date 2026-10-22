@@ -1,68 +1,32 @@
 # Lawrence Davy
 
-**Infrastructure / Cloud / Networking / Security**
+**Aspiring infrastructure / network support engineer | Essex, UK**
 
-Operations professional with 11+ years leading teams in a high-volume environment, now working toward a first commercial infrastructure, network or cloud-support role. I am currently studying **Cisco CCNA (200-301)** and building practical capability through hands-on networking, Windows/Active Directory, Azure/Linux and security labs.
+I'm moving into IT from hospitality operations, where I've worked for more than 11 years, including several years leading kitchen shifts and training colleagues. Outside work I've been learning through Azure, Windows Server, Linux and networking labs.
 
-The projects below are **self-directed labs and projects, not commercial IT experience**. I keep completed and in-progress work clearly labelled and only list technologies I can explain and defend.
+I'm currently studying for the **Cisco CCNA**. I'm looking for my first commercial infrastructure or network-support role.
 
-## Current focus
+## Selected projects
 
-- **Cisco CCNA (200-301)** - studying with Jeremy's IT Lab and hands-on Packet Tracer practice
-- Developing networking troubleshooting skills using **Packet Tracer and Wireshark**
-- Strengthening infrastructure fundamentals across **Windows Server, Active Directory, DNS, Linux and Azure**
-- Building toward security through infrastructure and operations rather than skipping the foundations
+| Project | What I worked on | Status |
+| --- | --- | --- |
+| [Azure VM deployment](https://github.com/LawrenceDavy/azure-cli-vm-deployment) | Azure CLI, Linux VM, VNet, subnet, NSG, SSH, diagnostics and deployment/cleanup scripts | Lab completed; scripts under review |
+| [Active Directory in Azure](https://github.com/LawrenceDavy/configure-ad) | Windows Server domain controller, DNS, domain join, users, groups and permissions | Lab completed |
+| [Kubernetes / CI/CD learning project](https://github.com/LawrenceDavy/DevopsProject-3) | AWS EKS, eksctl, Helm and GitLab pipeline setup; documented what proved difficult | Historical learning project |
+| [osTicket service desk lab](https://github.com/LawrenceDavy/post-install-config) | Roles, agents, ticket categories, SLAs and ticket workflow | Lab completed |
+| [Home SOC lab](https://github.com/LawrenceDavy/home-soc-lab) | Windows 11 VM, Sysmon setup and local event validation; broader monitoring work in progress | In progress |
 
-## Selected hands-on evidence
+These are **personal projects and labs, not commercial IT employment**. The READMEs contain my notes, screenshots and any scripts or configuration files available. I keep work-in-progress separate from completed exercises.
 
-### [Azure VM Deployment with Networking and Monitoring](https://github.com/LawrenceDavy/azure-cli-vm-deployment) - Completed
-Independent end-to-end Azure infrastructure deployment using the Azure CLI.
+## Current learning
 
-- Created a resource group, VNet, subnet and Network Security Group
-- Deployed an Ubuntu 22.04 LTS VM and tested SSH connectivity
-- Enabled boot diagnostics and basic Azure Monitor visibility
-- Added deployment and clean-up scripts to control repeatability and cost
-- Documented troubleshooting for an outdated VM image alias and a regional vCPU quota failure
+- **Networking:** Cisco CCNA, Packet Tracer, IP addressing, switching, routing fundamentals and troubleshooting
+- **Systems:** Windows Server, Active Directory, DNS, Linux and virtual machines
+- **Cloud:** Azure VM deployment, VNets, NSGs and Azure CLI
+- **Automation:** Bash, PowerShell basics and earlier CI/CD experiments
 
-### [Active Directory Domain in Azure](https://github.com/LawrenceDavy/configure-ad) - Completed
-Windows Server and identity lab running on Azure VMs.
+## How I approach a lab
 
-- Deployed Windows Server 2022 as a domain controller and a Windows client in the same VNet
-- Configured static private addressing and DNS dependencies
-- Installed AD DS, created a forest, users and organisational units, and domain-joined the client
-- Used PowerShell for additional user provisioning and documented connectivity/verification steps
-- Last verified: August 2026
+Set up the environment, test it, record what happened, fix problems and document what I learned. I am still building professional depth, particularly in troubleshooting and operating systems at scale.
 
-### [osTicket Help-Desk Lab](https://github.com/LawrenceDavy/post-install-config) - Completed
-Service-management lab covering configuration and ticket workflow.
-
-- Configured roles, departments, teams, agents, users, SLAs and help topics
-- Practised structured ticket intake, prioritisation, escalation and resolution workflow
-- Documented the configuration process with screenshots and linked lifecycle stages
-
-Related: [Ticket Lifecycle](https://github.com/LawrenceDavy/ticket-lifecycle) | [Installation Prerequisites](https://github.com/LawrenceDavy/osticket-prereqs)
-
-### [Home SOC Lab](https://github.com/LawrenceDavy/home-soc-lab) - In progress
-Security-monitoring lab being developed incrementally.
-
-- Building Windows Sysmon telemetry into Microsoft Sentinel
-- Developing KQL detection and incident-triage documentation as components are completed
-- Kept explicitly in progress rather than presented as finished security-engineering work
-
-## Technologies evidenced in current work
-
-**Networking:** TCP/IP, DNS, ICMP, SSH, networking fundamentals, Packet Tracer, Wireshark  
-**Systems:** Windows Server 2022, Active Directory Domain Services, Windows 10/11, Linux, RDP, PowerShell  
-**Azure:** Virtual Machines, VNets, subnets, NSGs, Azure Monitor, Azure CLI  
-**Support:** osTicket, ticket lifecycle, SLAs, roles/departments/teams, process documentation  
-**Security labs:** access control, NSGs, file/share permissions, Microsoft Sentinel, Sysmon, KQL *(security lab in progress)*  
-**Tools:** Git/GitHub, Bash, Azure CLI
-
-## How I work
-
-My project standard is simple: understand the requirement, build the system, validate it, document what broke, explain the fix, and clean up resources when they are no longer needed. The goal is evidence I can discuss in an interview - not a long list of technologies.
-
-## Contact
-
-- [LinkedIn](https://www.linkedin.com/in/lawrencedavy)
-- [GitHub](https://github.com/LawrenceDavy)
+[LinkedIn](https://www.linkedin.com/in/lawrencedavy) · [GitHub repositories](https://github.com/LawrenceDavy?tab=repositories)
